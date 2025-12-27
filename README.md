@@ -13,8 +13,18 @@ Crimson Rose Tycoon is a Pygame idle tycoon game where you grow, upgrade, and au
 - More features coming soon
 
 - ## 🎮 Download Crimson Rose Tycoon
+## 🟥 Crimson Rose Idle — Download
 
-➡️ [![Download](https://img.shields.io/github/v/release/kind-elohim/Crimson-Rose-Tycoon?label=Download&style=for-the-badge)](https://github.com/kind-elohim/Crimson-Rose-Tycoon/releases/latest)
+<p>
+  <a href="https://github.com/kind-elohim/crimson-rose-idle/releases/latest">
+    <img src="https://img.shields.io/github/v/release/kind-elohim/crimson-rose-idle?label=DOWNLOAD&style=for-the-badge&color=8b0000">
+  </a>
+</p>
+
+**Installation**
+- Download the ZIP  
+- Extract it  
+- Run the EXE  
 
 Unzip the folder and run `CrimsonRoseTycoon.exe`.
 
