@@ -12,6 +12,12 @@ Crimson Rose Tycoon is a Pygame idle tycoon game where you grow, upgrade, and au
 - Multiple display modes (fullscreen, windowed, borderless)
 - More features coming soon
 
+- ## 🎮 Download Crimson Rose Tycoon
+
+➡️ [![Download](https://img.shields.io/github/v/release/kind-elohim/Crimson-Rose-Tycoon?label=Download&style=for-the-badge)](https://github.com/kind-elohim/Crimson-Rose-Tycoon/releases/latest)
+
+Unzip the folder and run `CrimsonRoseTycoon.exe`.
+
 ---
 
 ## 🖥️ Display Mode Hotkeys
