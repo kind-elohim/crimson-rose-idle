@@ -1,0 +1,114 @@
+{
+  "money": 4008.382328805329,
+  "money_per_click": 2.0,
+  "global_income_multiplier": 1.5,
+  "black_roses": 49,
+  "rose_multiplier": 0.05,
+  "total_earned": 4598.382328805324,
+  "buildings": [
+    {
+      "name": "Assistant",
+      "base_cost": 10,
+      "base_income": 0.5,
+      "amount": 11,
+      "unlocked": true,
+      "unlock_tech": null
+    },
+    {
+      "name": "Server Rack",
+      "base_cost": 100,
+      "base_income": 5,
+      "amount": 1,
+      "unlocked": true,
+      "unlock_tech": null
+    },
+    {
+      "name": "Data Center",
+      "base_cost": 1000,
+      "base_income": 40,
+      "amount": 0,
+      "unlocked": true,
+      "unlock_tech": null
+    },
+    {
+      "name": "AI Forge",
+      "base_cost": 5000,
+      "base_income": 200,
+      "amount": 0,
+      "unlocked": false,
+      "unlock_tech": "ai_forge"
+    },
+    {
+      "name": "Quantum Reactor",
+      "base_cost": 25000,
+      "base_income": 1200,
+      "amount": 0,
+      "unlocked": false,
+      "unlock_tech": "quantum_reactor"
+    },
+    {
+      "name": "Rose Harvester",
+      "base_cost": 100000,
+      "base_income": 5000,
+      "amount": 0,
+      "unlocked": false,
+      "unlock_tech": "rose_harvester"
+    }
+  ],
+  "upgrades": [
+    {
+      "name": "Better Mouse",
+      "description": "Double money per click.",
+      "cost": 50,
+      "multiplier_resource": "click",
+      "multiplier_amount": 2.0,
+      "bought": true
+    },
+    {
+      "name": "Automation Suite",
+      "description": "Increase building income by 50%.",
+      "cost": 200,
+      "multiplier_resource": "building",
+      "multiplier_amount": 1.5,
+      "bought": true
+    }
+  ],
+  "techs": {
+    "ai_forge": {
+      "key": "ai_forge",
+      "name": "AI Forge Protocols",
+      "description": "Unlock AI Forge (high income).",
+      "cost_credits": 5000,
+      "cost_roses": 0,
+      "unlocked": false,
+      "unlocks_buildings": [
+        "AI Forge"
+      ]
+    },
+    "quantum_reactor": {
+      "key": "quantum_reactor",
+      "name": "Quantum Reactor Theory",
+      "description": "Unlock Quantum Reactor (huge income).",
+      "cost_credits": 20000,
+      "cost_roses": 2,
+      "unlocked": false,
+      "unlocks_buildings": [
+        "Quantum Reactor"
+      ]
+    },
+    "rose_harvester": {
+      "key": "rose_harvester",
+      "name": "Rose Harvester Rituals",
+      "description": "Unlock Rose Harvester (massive income).",
+      "cost_credits": 75000,
+      "cost_roses": 5,
+      "unlocked": false,
+      "unlocks_buildings": [
+        "Rose Harvester"
+      ]
+    }
+  },
+  "display": {
+    "fullscreen": true
+  }
+}
